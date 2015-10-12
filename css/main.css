@@ -373,15 +373,19 @@ line-height: 6rem;
 }
 header #logo-container h2 span:nth-child(1){
   color: #C4DB00;
+  margin-left: -7px;
 }
 header #logo-container h2 span:nth-child(2){
   color: #FEA700;
+  margin-left: -7px;
 }
   header #logo-container h2 span:nth-child(3){
     color: #F65700;
+    margin-left: -7px;
   }
     header #logo-container h2 span:nth-child(4){
       color: #DD0457;
+      margin-left: -7px;
     }
 #content section.row.discover{
   padding-bottom: 0;
