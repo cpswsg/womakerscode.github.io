@@ -737,6 +737,12 @@ p {
     line-height: 23px; }
 
 @media only screen and (max-width: 992px) {
+  .visual p.tagline {
+    background-color: rgba(0,0,0,.8);
+  }
+  .slide-holder .img-slide {
+    margin: 0 0 140px;
+  }
   .nav-opener {
     display: inline-block;
     vertical-align: top; }
@@ -1069,10 +1075,10 @@ p {
       font-size: 1.6rem;
       line-height: 1.5; }
     .visual .bg-stretch {
-      max-width: 100%;
+      max-height: 100%;
       bottom: 20px; }
     .visual .info {
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(0, 0, 0, 0.8);
       color: #BEBCC3; }
 
   .visual h1 {
