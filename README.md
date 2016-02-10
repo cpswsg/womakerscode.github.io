@@ -1,14 +1,13 @@
-# Creative Theme for Jekyll
+# WoMakersCode
+O WoMakersCode é um projeto livre, criado e mantido por voluntários ligados a comunidades open-source, que tem como objetivo incentivar o aprendizado e a participação de mulheres em áreas como robótica, desenvolvimento e qualidade de software. São desenvolvidas oficinas com base teórica e prática, onde o aprendizado colaborativo e compartilhamento de experiências, são parte fundamental.
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+## Formas de contribuição
+Sugerindo ou hospedando uma oficina;
+Ministrando ou auxiliando oficinas;
+Criando conteúdo;
+Divulgando o projeto em sua comunidade;
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+## Onde nos encontrar
+[Facebook](https://www.facebook.com/womakerscode)
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
-
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
-
+[Slack](http://www.womakerscode.slack.com)
