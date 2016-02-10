@@ -539,6 +539,10 @@ body
 .fa-bell
 {
     display: block;
+
+    &:hover {
+      text-decoration: none;
+    }
 }
 
 @media (max-width: 550px)
