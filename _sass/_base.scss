@@ -3,6 +3,7 @@ body
 {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 body
@@ -540,8 +541,10 @@ body
 {
     display: block;
 
-    &:hover {
+    &:hover,
+    &:focus {
       text-decoration: none;
+      background-color: none;
     }
 }
 
@@ -551,6 +554,7 @@ body
     {
         padding-top: 4rem;
     }
+
     .join-heading-title span,
     .header-content-inner
     {
