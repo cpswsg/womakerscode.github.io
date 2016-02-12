@@ -95,10 +95,12 @@ aside
     @include transition-all;
     .navbar-header .navbar-brand
     {
+        width: 75%;
+        max-width: 200px;
+        margin-left: 1rem;
+
         background: url(../img/womakerscode.png) center no-repeat;
         background-size: contain;
-        max-width: 200px;
-        width: 75%;
     }
     .nav
     {
@@ -541,9 +543,11 @@ body
     display: block;
 
     &:hover,
-    &:focus {
-      text-decoration: none;
-      background-color: none;
+    &:focus
+    {
+        text-decoration: none;
+
+        background-color: none;
     }
 }
 
