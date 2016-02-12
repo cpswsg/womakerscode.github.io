@@ -346,17 +346,21 @@ body {
 .fa-slack,
 .fa-bell {
   display: block; }
-  .fa-twitter:hover,
+  .fa-twitter:hover, .fa-twitter:focus,
   .fa-slack:hover,
-  .fa-bell:hover {
-    text-decoration: none; }
+  .fa-slack:focus,
+  .fa-bell:hover,
+  .fa-bell:focus {
+    text-decoration: none;
+    background-color: none; }
 
 @media (max-width: 550px) {
   .join-heading-title {
     padding-top: 4rem; }
 
-  .join-heading-title span {
-    font-size: 2.5rem; }
+  .join-heading-title span,
+  .header-content-inner h1 {
+    font-size: 2rem !important; }
 
   .navbar-header .navbar-brand img {
-    max-width: 100%; } }
+    max-width: 90%; } }
