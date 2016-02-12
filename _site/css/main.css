@@ -63,7 +63,7 @@ aside {
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
     background: url(../img/womakerscode.png) center no-repeat;
-    background-size: cover;
+    background-size: contain;
     max-width: 200px;
     width: 75%; }
   .navbar-default .nav > li > a,
