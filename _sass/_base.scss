@@ -95,10 +95,10 @@ aside
     @include transition-all;
     .navbar-header .navbar-brand
     {
-        img
-        {
-            max-height: 100%;
-        }
+        background: url(../img/womakerscode.png) center no-repeat;
+        background-size: cover;
+        max-width: 200px;
+        width: 75%;
     }
     .nav
     {
@@ -558,13 +558,5 @@ body
     .header-content-inner h1
     {
         font-size: 2rem !important;
-    }
-
-    .navbar-header .navbar-brand
-    {
-        img
-        {
-            max-width: 90%;
-        }
     }
 }

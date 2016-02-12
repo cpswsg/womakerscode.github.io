@@ -61,8 +61,11 @@ aside {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
-  .navbar-default .navbar-header .navbar-brand img {
-    max-height: 100%; }
+  .navbar-default .navbar-header .navbar-brand {
+    background: url(../img/womakerscode.png) center no-repeat;
+    background-size: cover;
+    max-width: 200px;
+    width: 75%; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     font-size: 13px;
@@ -360,7 +363,4 @@ body {
 
   .join-heading-title span,
   .header-content-inner h1 {
-    font-size: 2rem !important; }
-
-  .navbar-header .navbar-brand img {
-    max-width: 90%; } }
+    font-size: 2rem !important; } }
