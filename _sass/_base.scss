@@ -540,8 +540,10 @@ body
 {
     display: block;
 
-    &:hover {
+    &:hover,
+    &:focus {
       text-decoration: none;
+      background-color: none;
     }
 }
 
@@ -551,9 +553,11 @@ body
     {
         padding-top: 4rem;
     }
-    .join-heading-title span
+
+    .join-heading-title span,
+    .header-content-inner h1
     {
-        font-size: 2.5rem;
+        font-size: 2rem !important;
     }
 
     .navbar-header .navbar-brand
