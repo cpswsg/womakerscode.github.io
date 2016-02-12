@@ -62,8 +62,7 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    width: 75%;
-    max-width: 200px;
+    width: 200px;
     margin-left: 1rem;
     background: url(../img/womakerscode.png) center no-repeat;
     background-size: contain; }
