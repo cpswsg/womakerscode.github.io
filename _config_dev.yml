@@ -1,9 +1,9 @@
 # Site Settings
-title: WoMakersCode - Tecnologia e Empoderamento feminino
+title: WoMakersCode: Tecnologia e Empoderamento feminino
 email: cynthiazanoni@gmail.com
 description: O WoMakersCode é um projeto open-source de ensino de tecnologia e empoderamento feminino.
 baseurl: ""
-url: "http://womakerscode.github.io"
+url: "http://localhost:4000"
 twitter_username: cynthia_zanoni
 github_username:  cyz
 # Build Settings

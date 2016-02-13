@@ -1,0 +1,580 @@
+body
+{
+    @include serif-font;
+}
+
+hr
+{
+    max-width: 50px;
+
+    border-width: 3px;
+    border-color: $theme-primary;
+}
+
+hr.light
+{
+    border-color: white;
+}
+
+a
+{
+    color: $theme-primary;
+
+    @include transition-all;
+    &:hover,
+    &:focus
+    {
+        text-decoration: none;
+
+        color: darken($theme-primary, 10%);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    @include sans-serif-font;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+}
+
+.bg-primary
+{
+    background-color: $theme-primary;
+}
+
+.bg-dark
+{
+    color: white;
+    background-color: $theme-dark;
+}
+
+.text-faded
+{
+    color: rgba(white, .7);
+}
+
+section,
+footer
+{
+    padding: 6.25rem 0;
+}
+
+aside
+{
+    padding: 3.125rem 0;
+}
+
+.no-padding
+{
+    padding: 0;
+}
+
+.navbar-default
+{
+    border: none;
+    background-color: white;
+
+    @include sans-serif-font;
+    @include transition-all;
+    .navbar-header .navbar-brand
+    {
+        width: 200px;
+        margin-left: 1rem;
+
+        background: url(../img/womakerscode.png) center no-repeat;
+        background-size: contain;
+    }
+    .nav
+    {
+        > li
+        {
+            > a,
+            > a:focus
+            {
+                font-size: 13px;
+                font-weight: 700;
+
+                text-transform: uppercase;
+
+                color: $theme-dark;
+                &:hover
+                {
+                    color: $theme-primary;
+                }
+            }
+            &.active
+            {
+                > a,
+                > a:focus
+                {
+                    color: $theme-primary !important;
+                    background-color: transparent;
+                    &:hover
+                    {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px)
+    {
+        border-color: rgba(white, .3);
+        background-color: transparent;
+        .navbar-header .navbar-brand
+        {
+            color: rgba(white, .7);
+            &:hover,
+            &:focus
+            {
+                color: white;
+            }
+        }
+        .nav > li > a,
+        .nav > li > a:focus
+        {
+            color: rgba(white, .7);
+            &:hover
+            {
+                color: white;
+            }
+        }
+        &.affix
+        {
+            border: none;
+            background-color: $theme-dark;
+            .navbar-header .navbar-brand
+            {
+                font-size: 14px;
+                &:hover,
+                &:focus
+                {
+                    color: darken($theme-primary, 10%);
+                }
+            }
+            .nav > li > a,
+            .nav > li > a:focus
+            {
+                color: #fff;
+                &:hover
+                {
+                    color: $theme-primary;
+                }
+            }
+        }
+    }
+}
+
+.conceptual
+{
+    position: relative;
+
+    width: 100%;
+    min-height: 100vh;
+
+    text-align: center;
+
+    color: #fff;
+    background-image: url('../img/header.jpg');
+    background-position: center;
+
+    @include background-cover;
+    .header-content
+    {
+        position: relative;
+
+        width: 100%;
+        padding: 100px 15px 100px;
+
+        text-align: center;
+        .header-content-inner
+        {
+            h1
+            {
+                font-size: 7rem;
+                font-weight: 700;
+
+                margin-top: 0;
+                margin-bottom: 0;
+
+                text-transform: uppercase;
+            }
+            hr
+            {
+                margin: 30px auto;
+            }
+            p
+            {
+                font-size: 16px;
+                font-weight: 300;
+
+                margin-bottom: 50px;
+
+                color: rgba(white, .7);
+            }
+        }
+    }
+    @media (min-width: 768px)
+    {
+        .header-content
+        {
+            padding: 10rem 5rem;
+
+            .header-content-inner
+            {
+                max-width: 1000px;
+                margin-right: auto;
+                margin-left: auto;
+                p
+                {
+                    font-size: 18px;
+
+                    max-width: 80%;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
+
+// Sections
+
+.section-heading
+{
+    margin-top: 0;
+}
+
+.service-box
+{
+    max-width: 400px;
+    margin: 50px auto 0;
+    @media (min-width: 992px)
+    {
+        margin: 20px auto 0;
+    }
+
+    p
+    {
+        margin-bottom: 0;
+    }
+}
+
+.portfolio-box
+{
+    position: relative;
+
+    display: block;
+
+    max-width: 650px;
+    margin: 0 auto;
+    .portfolio-box-caption
+    {
+        position: absolute;
+        bottom: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        text-align: center;
+
+        opacity: 0;
+        color: white;
+        background: rgba( $theme-primary, .9 );
+
+        @include transition-all;
+        .portfolio-box-caption-content
+        {
+            position: absolute;
+            top: 50%;
+
+            width: 100%;
+
+            transform: translateY(-50%);
+            text-align: center;
+            .project-category,
+            .project-name
+            {
+                padding: 0 15px;
+
+                @include sans-serif-font;
+            }
+            .project-category
+            {
+                font-size: 14px;
+                font-weight: 600;
+
+                text-transform: uppercase;
+            }
+            .project-name
+            {
+                font-size: 18px;
+            }
+        }
+    }
+    &:hover
+    {
+        .portfolio-box-caption
+        {
+            opacity: 1;
+        }
+    }
+    @media (min-width: 768px)
+    {
+        .portfolio-box-caption
+        {
+            .portfolio-box-caption-content
+            {
+                .project-category
+                {
+                    font-size: 16px;
+                }
+                .project-name
+                {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+.call-to-action
+{
+    h2
+    {
+        margin: 0 auto 20px;
+    }
+}
+
+// Bootstrap Overrides
+.text-primary
+{
+    color: $theme-primary;
+}
+
+.no-gutter > [class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+// Button Styles
+.btn-default
+{
+    @include button-variant($theme-dark, white, white);
+}
+
+.btn-primary
+{
+    @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn
+{
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 300px;
+
+    @include sans-serif-font;
+}
+
+.btn-xl
+{
+    padding: 15px 30px;
+}
+
+// Contact
+#contact .fa
+{
+    font-size: 4em;
+
+    color: $theme-dark;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection
+{
+    color: white;
+    background: $theme-dark;
+    text-shadow: none;
+}
+
+::selection
+{
+    color: white;
+    background: $theme-dark;
+    text-shadow: none;
+}
+
+img::selection
+{
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection
+{
+    color: white;
+    background: transparent;
+}
+
+body
+{
+    -webkit-tap-highlight-color: $theme-dark;
+}
+
+.parterns-box
+{
+    width: 30%;
+    height: 90px;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    padding: 1rem .5rem;
+
+    border-radius: 1rem;
+    background-color: #fff;
+
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+#header-join-project
+{
+    min-height: 300px;
+    margin-bottom: 2rem;
+
+    background: $theme-dark;
+}
+#join-project
+{
+    padding-top: 1rem;
+
+    color: $theme-dark;
+}
+.join-heading
+{
+    position: relative;
+
+    padding: 5rem 0;
+
+    background-color: $theme-dark;
+}
+
+#wc-fixed
+{
+    position: absolute;
+    top: 0;
+    left: -110px;
+
+    display: block;
+
+    width: 214px;
+    height: 194px;
+
+    background: url(../img/icon.png) left no-repeat;
+}
+
+.join-heading-title
+{
+    font-weight: 800;
+
+    text-transform: lowercase;
+
+    span
+    {
+        font-size: 4rem;
+
+        display: block;
+
+        &:nth-child(1)
+        {
+            color: #c4db00;
+        }
+
+        &:nth-child(2)
+        {
+            color: #ffa800;
+        }
+        &:nth-child(3)
+        {
+            color: #f95600;
+        }
+        &:nth-child(4)
+        {
+            color: #e00055;
+        }
+    }
+}
+
+.join-heading-subtitle
+{
+    font-weight: 700;
+}
+
+.fa-twitter,
+.fa-slack,
+.fa-bell
+{
+    display: block;
+}
+
+.footer-social-media
+{
+    &:hover
+    {
+        .fa-twitter,
+        .fa-slack,
+        .fa-bell
+        {
+            &:before
+            {
+                text-decoration: none;
+
+                color: $theme-dark;
+                border: none;
+            }
+        }
+
+        span
+        {
+            text-decoration: none;
+
+            color: $theme-dark;
+            border: none;
+        }
+    }
+}
+
+@media (max-width: 550px)
+{
+    .join-heading-title
+    {
+        padding-top: 4rem;
+    }
+
+    .join-heading-title span,
+    .conceptual .header-content .header-content-inner h1
+    {
+        font-size: 2.5rem;
+    }
+}
