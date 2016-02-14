@@ -381,7 +381,12 @@ body {
 .schedule-button {
   border: 1px solid #fff;
   padding: 1rem;
-  display: block; }
+  display: inline-block; }
+  .schedule-button i {
+    float: right;
+    margin-right: .2rem;
+    margin-top: .3rem;
+    margin-left: 1rem; }
 
 @media (max-width: 550px) {
   .join-heading-title {
