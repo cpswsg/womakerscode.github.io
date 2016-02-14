@@ -13,10 +13,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="../index.html#about" title="Sobre">Sobre</a>
+                    <a class="page-scroll" href="{{ "/#about" | prepend: site.baseurl }}" title="Sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="alistamento" title="Aliste-se!">Aliste-se!</a>
+                    <a href="{{ "/alistamento" | prepend: site.baseurl }}" title="Aliste-se!">Aliste-se!</a>
+                </li>
+                <li>
+                    <a href="{{ "/agenda" | prepend: site.baseurl }}" title="Agenda">Agenda</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#footer" title="Contato">Contato</a>

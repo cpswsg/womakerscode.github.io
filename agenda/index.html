@@ -1,12 +1,31 @@
 ---
-layout: default
+layout: page
+title: 'Agenda de Eventos - WoMakersCode'
+description: Calendário de oficinas e eventos do WoMakersCode. Empoderamento feminino, igualdade e tecnologia ao redor do Brasil!
+permalink: /agenda/
 ---
-
-<h2>Blog</h2>
-{% for post in site.posts %}
-		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-{% endfor %}
-
-<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<header class="conceptual conceptual--schedule">
+  <div class="header-content">
+    <div class="header-content-inner">
+      <h1>Calendário de eventos e oficinas #WMC16</h1>
+      <hr>
+      <p>Maratona de atividades em comemoração ao Dia Internacional da Mulher.</p>
+    </div>
+  </div>
+</header>
+<section class="no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      {% for post in site.posts %}
+      <div class="col-lg-4 col-sm-6 {{ post.class }}">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="schedule-boxing" title="{{ post.title }}, em {{ post.location }}">
+          <time>{{ post.dateDue | date: "%d/%m/%Y" }}</time>
+          <h3>{{ post.title }}</h3>
+          <span class="schedule-location">em {{ post.location }}</span>
+          <span class="schedule-button">Inscreva-se</span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -181,7 +181,7 @@ aside
     position: relative;
 
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 
     text-align: center;
 
@@ -565,6 +565,28 @@ body
     }
 }
 
+.conceptual--schedule {
+  height: 450px;
+}
+
+.schedule-boxing {
+  padding: 5rem 4.5rem;
+  display: block;
+  color: #fff;
+  height: 25rem;
+}
+
+.schedule-location {
+  display: block;
+  margin: .5rem 0 1rem;
+}
+
+.schedule-button {
+  border: 1px solid #fff;
+  padding: 1rem;
+  display: block;
+}
+
 @media (max-width: 550px)
 {
     .join-heading-title
@@ -577,4 +599,13 @@ body
     {
         font-size: 2.5rem;
     }
+}
+
+@media (max-width: 1200px)
+{
+    .parterns-box
+    {
+      width: auto;
+    }
+
 }

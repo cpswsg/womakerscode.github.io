@@ -117,7 +117,7 @@ aside {
 .conceptual {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   text-align: center;
   color: #fff;
   background-image: url("../img/header.jpg");
@@ -365,6 +365,24 @@ body {
   color: #21262A;
   border: none; }
 
+.conceptual--schedule {
+  height: 450px; }
+
+.schedule-boxing {
+  padding: 5rem 4.5rem;
+  display: block;
+  color: #fff;
+  height: 25rem; }
+
+.schedule-location {
+  display: block;
+  margin: .5rem 0 1rem; }
+
+.schedule-button {
+  border: 1px solid #fff;
+  padding: 1rem;
+  display: block; }
+
 @media (max-width: 550px) {
   .join-heading-title {
     padding-top: 4rem; }
@@ -372,6 +390,9 @@ body {
   .join-heading-title span,
   .conceptual .header-content .header-content-inner h1 {
     font-size: 2.5rem; } }
+@media (max-width: 1200px) {
+  .parterns-box {
+    width: auto; } }
 /**
  * Syntax highlighting styles
  */

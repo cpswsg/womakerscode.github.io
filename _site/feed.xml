@@ -5,9 +5,24 @@
     <description>O WoMakersCode é um projeto open-source de ensino de tecnologia e empoderamento feminino.</description>
     <link>http://womakerscode.github.io/</link>
     <atom:link href="http://womakerscode.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Feb 2016 01:59:48 -0200</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2016 01:59:48 -0200</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2016 19:04:43 -0200</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 19:04:43 -0200</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>WoMakersCode Conferência</title>
+        <description>&lt;p&gt;O WoMakersCode é um projeto livre, sem fins lucrativos, com o objetivo de capacitar mulheres para atuar no mercado de tecnologia. Com o apoio de comunidades de open source, estamos levando conteúdo e unindo forças ao redor do país, para promover a igualdade de gênero e o empoderamento feminino.&lt;/p&gt;
+
+&lt;p&gt;No dia 19 de Março, vamos realizar um ciclo de palestras com os principais profissionais do mercado gaúcho, nas áreas de comunicação, marketing digital, empreendedorismo e desenvolvimento de software. Aproveite esta oportunidade e garanta seu ingresso.&lt;/p&gt;
+
+&lt;p class=&quot;text-left&quot;&gt;Em breve publicaremos local e agenda do evento.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Feb 2016 07:30:00 -0200</pubDate>
+        <link>http://womakerscode.github.io/2016/02/14/womakerscode-conferencia.html</link>
+        <guid isPermaLink="true">http://womakerscode.github.io/2016/02/14/womakerscode-conferencia.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>
