@@ -540,6 +540,11 @@ body
 
 .footer-social-media
 {
+    span
+    {
+        display: block;
+    }
+
     &:hover
     {
         .fa-twitter,
@@ -565,33 +570,44 @@ body
     }
 }
 
-.conceptual--schedule {
-  height: 450px;
+.conceptual--schedule
+{
+    height: 450px;
 }
 
-.schedule-boxing {
-  padding: 5rem 4.5rem;
-  display: block;
-  color: #fff;
-  height: 25rem;
+.schedule-boxing
+{
+    display: block;
+
+    height: 25rem;
+    padding: 5rem 4.5rem;
+
+    color: #fff;
 }
 
-.schedule-location {
-  display: block;
-  margin: .5rem 0 1rem;
+.schedule-location
+{
+    display: block;
+
+    margin: .5rem 0 1rem;
 }
 
-.schedule-button {
-  border: 1px solid #fff;
-  padding: 1rem;
-  display: inline-block;
+.schedule-button
+{
+    display: inline-block;
 
-  i {
-    float: right;
-    margin-right: .2rem;
-    margin-top: .3rem;
-    margin-left: 1rem;
-  }
+    padding: 1rem;
+
+    border: 1px solid #fff;
+
+    i
+    {
+        float: right;
+
+        margin-top: .3rem;
+        margin-right: .2rem;
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width: 550px)
@@ -612,7 +628,6 @@ body
 {
     .parterns-box
     {
-      width: auto;
+        width: auto;
     }
-
 }
