@@ -610,6 +610,25 @@ body
     }
 }
 
+.no-bottom
+{
+    padding-bottom: 0;
+}
+
+.list-no-style
+{
+    padding-left: 0;
+
+    li
+    {
+        display: inline-block;
+
+        margin-bottom: 1rem;
+
+        list-style: none;
+    }
+}
+
 @media (max-width: 550px)
 {
     .join-heading-title
