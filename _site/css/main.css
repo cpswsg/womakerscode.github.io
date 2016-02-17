@@ -297,10 +297,10 @@ body {
   -webkit-tap-highlight-color: #21262A; }
 
 .parterns-box {
-  width: 30%;
+  width: 32%;
   height: 90px;
-  margin-right: .5rem;
-  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem .5rem;
   border-radius: 1rem;
   background-color: #fff; }
