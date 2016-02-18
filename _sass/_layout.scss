@@ -646,6 +646,7 @@ body
 
         float: left;
 
+        width: 70%;
         margin: 1rem 0 0 3rem;
     }
 
@@ -657,6 +658,10 @@ body
     &:first-child
     {
         margin-top: 4rem;
+    }
+
+    &.join-buttons-actions--no-top span {
+      margin-top: 0;
     }
 }
 

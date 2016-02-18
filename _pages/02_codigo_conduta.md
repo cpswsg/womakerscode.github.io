@@ -53,7 +53,7 @@ Senso coletivo<br/>
 </p>
 <p>Estes mesmos valores básicos, cabem aos participantes de todas as nossas atividades também, pois são de extrema importância para uma convivência saudável e que contribua, de fato, com a capacitação de todos (entenda-se por capacidades técnica e não-técnica). Em especial, todos os voluntários devem atentar para essas características em suas contribuições e/ou participação no projeto, visto que seu trabalho e sua postura é que contribuirão para o crescimento do projeto e consequentemente atingir a vida de muitas pessoas.</p>
 <br />
-<p class="text-center">Se identificou? Inscreva-se e torne-se um voluntário(a)! <br/><br /><a href="codigo-conduta" class="btn btn-primary btn-xl">Código de Conduta</a><p>
+<p class="text-center">Se identificou? Inscreva-se e torne-se um voluntário(a)! <br/><br /><a href="http://goo.gl/forms/CPiDirpKeP" target="_blank" class="btn btn-primary btn-xl">Alistamento de voluntários(as)!</a><p>
      </div>
    </div>
 </section>
