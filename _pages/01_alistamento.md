@@ -33,7 +33,7 @@ permalink: /alistamento/
      </div>
      <div class="col-lg-3 col-lg-offset-1">
       <a href="http://goo.gl/forms/smwvJwcvDj" class="join-buttons-actions" title="Faça sua inscrição"><i class="fa fa-3x fa-book"></i><span>Faça sua inscrição</span></a><br/></br>
-      <a href="codigo-conduta" class="join-buttons-actions" title="Termo de Conduta"><i class="fa fa-3x fa-certificate"></i><span>Termo de Conduta</span></a>
+      <a href="{{ "/codigo-conduta" | prepend: site.baseurl }}" class="join-buttons-actions" title="Termo de Conduta"><i class="fa fa-3x fa-certificate"></i><span>Termo de Conduta</span></a>
      </div>
    </div>
 </section>
