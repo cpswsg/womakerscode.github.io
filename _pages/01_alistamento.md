@@ -33,7 +33,11 @@ permalink: /alistamento/
      </div>
      <div class="col-lg-3 col-lg-offset-1">
       <a href="http://goo.gl/forms/smwvJwcvDj" class="join-buttons-actions" title="Faça sua inscrição"><i class="fa fa-3x fa-book"></i><span>Faça sua inscrição</span></a><br/></br>
-      <a href="{{ "/codigo-conduta" | prepend: site.baseurl }}" class="join-buttons-actions" title="Termo de Conduta"><i class="fa fa-3x fa-certificate"></i><span>Termo de Conduta</span></a>
+      <a href="{{ "/codigo-conduta" | prepend: site.baseurl }}" class="join-buttons-actions" title="Termo de Conduta"><i class="fa fa-3x fa-certificate"></i><span>Termo de Conduta</span></a><br/></br>
+
+      <a href="http://bit.ly/2105Nra" class="join-buttons-actions join-buttons-actions--no-top " title="Como organizar um evento?" target="_blank"><i class="fa fa-3x fa-file-pdf-o"></i><span>Como organizar um evento?</span></a>
+      <br />
+      <a href="bit.ly/1oLf710" class="join-buttons-actions join-buttons-actions--no-top " title="Como criar um grupo local?" target="_blank"><i class="fa fa-3x fa-file-pdf-o"></i><span>Como criar um grupo local?</span></a>
      </div>
    </div>
 </section>

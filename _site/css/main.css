@@ -410,11 +410,14 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     float: left;
+    width: 70%;
     margin: 1rem 0 0 3rem; }
   .join-buttons-actions i {
     float: left; }
   .join-buttons-actions:first-child {
     margin-top: 4rem; }
+  .join-buttons-actions.join-buttons-actions--no-top span {
+    margin-top: 0; }
 
 .list-styled-one {
   padding-left: 0; }
