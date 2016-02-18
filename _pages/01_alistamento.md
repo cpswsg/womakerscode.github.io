@@ -30,6 +30,14 @@ permalink: /alistamento/
          <li><i class="fa fa-check fa-2"></i><strong>Código:</strong><br/>Atualização e melhorias no site e em projetos que possam auxiliar nosso trabalho. Projetos que possam contribuir para igualdade de gênero e inclusão, são bem vindos para o nosso (futuro) lab.</li>
          <li><i class="fa fa-check fa-2"></i><strong>Patrocínio:</strong><br/> Somos um projeto sem fins lucrativos e apoio financeiro é bem vindo para suprir custos com materiais (papel, lápis e etc), coffee-break e pequenos mimos com a marca do projeto (como adesivos <i class="fa fa-heart"></i>).</li>
        </ul>
+
+       <h3 class="join-heading-subtitle">Em nosso github, você encontra:</h3>
+       <ul class="list-styled-one">
+        <li><a href="https://github.com/WoMakersCode/womakerscode.github.io">Site WoMakersCode: código do site e issues abertas para dev.</a></li>
+        <li><a href="https://github.com/WoMakersCode/to-do">To-do's: template de post para Facebook (pasta MKT) e issues de organização de oficinas.</a></li>
+        <li><a href="https://github.com/WoMakersCode/workshops-2016">Workshops 2016: issues para criação e atualização de material de oficinas.</a></li>
+        <li><a href="https://github.com/WoMakersCode/aulas">Aulas: material de antigas oficinas.</a></li>
+       </ul>
      </div>
      <div class="col-lg-3 col-lg-offset-1">
       <a href="http://goo.gl/forms/smwvJwcvDj" class="join-buttons-actions" title="Faça sua inscrição"><i class="fa fa-3x fa-book"></i><span>Faça sua inscrição</span></a><br/></br>
