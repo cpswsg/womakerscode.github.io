@@ -28,7 +28,7 @@ permalink: /alistamento/
          <li><i class="fa fa-check fa-2"></i><strong>Ministrar aulas com foco em TIC - Tecnologia da Informação e Comunicação</strong><br /> Utilizando métodos inclusivos e participativos em espaços seguros e acolhedores, com base no currículo, material, metodologia e orientações gerais adotadas pelo projeto</li>
          <li><i class="fa fa-check fa-2"></i><strong>Geração de conteúdo:</strong><br/>Atualização de conteúdo das oficinas, sugestão de exercícios, artigos e publicações sobre o projeto e criação de novas oficinas.</li>
          <li><i class="fa fa-check fa-2"></i><strong>Código:</strong><br/>Atualização e melhorias no site e em projetos que possam auxiliar nosso trabalho. Projetos que possam contribuir para igualdade de gênero e inclusão, são bem vindos para o nosso (futuro) lab.</li>
-         <li><i class="fa fa-check fa-2"></i><strong>Patrocínio:</strong><br/> Somos um projeto sem fins lucrativos e apoio financeiro é bem vindo para suprir custos com materiais (papel, lápis e etc), coffee-break e pequenos mimos com a marca do projeto (como adesivos <3).</li>
+         <li><i class="fa fa-check fa-2"></i><strong>Patrocínio:</strong><br/> Somos um projeto sem fins lucrativos e apoio financeiro é bem vindo para suprir custos com materiais (papel, lápis e etc), coffee-break e pequenos mimos com a marca do projeto (como adesivos <i class="fa fa-heart"></i>).</li>
        </ul>
      </div>
      <div class="col-lg-3 col-lg-offset-1">
