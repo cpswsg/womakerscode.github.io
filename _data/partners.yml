@@ -2,12 +2,12 @@
   group: "Patrocinador"
   elements:
     - {name: "Mobile Summit", description: "Mobile Summit é a maior conferência sobre desenvolvimento mobile do Sul do Brasil", link: "http://www.msummit.com.br", imageUrl: "mobile-summit.png"}
-    - {name: "Mozilla Foundation", description: "A DECISION foi a primeira instituição brasileira a tornar-se parceira da Fundação Getulio Vargas, sendo pioneira no lançamento de cursos de especialização (MBA) fora do eixo Rio – São Paulo, e, nas últimas duas décadas, a DECISION/FGV, contribuiu para formar mais de 25 mil profissionais nesses cursos, incluindo diversos empresários e executivos das mais tradicionais empresas gaúchas.", link: "https://mozilla.org", imageUrl: "mozilla.png"}
+    - {name: "Mozilla Foundation", description: "A Mozilla é uma comunidade mundial de pensadores e apaixonados por tecnologia trabalhando juntos para manter a Internet viva e acessível para que todas as pessoas sejam contribuidoras e criadoras da Web. Acreditamos que o trabalho comunitário em uma plataforma de código aberto é essencial para nosso crescimento pessoal e para o futuro da sociedade.", link: "https://mozilla.org", imageUrl: "mozilla.png"}
     - {name: "Mídia Conecta", description: "A Mídia Conecta é uma agência que provê serviços de Assessoria de Imprensa, Mídias Digitais, Desenvolvimento Web, Projetos Editoriais e outros. ", link: "https://midiaconecta.com.br", imageUrl: "midia-conecta.png"}
 -
   group: "Parceiro"
   elements:
-    - {name: "Faculdades Decision | Infnet", description: "", link: "http://", imageUrl: "infnet.png"}
+    - {name: "Faculdades Decision | Infnet", description: "A DECISION foi a primeira instituição brasileira a tornar-se parceira da Fundação Getulio Vargas, sendo pioneira no lançamento de cursos de especialização (MBA) fora do eixo Rio – São Paulo, e, nas últimas duas décadas, a DECISION/FGV, contribuiu para formar mais de 25 mil profissionais nesses cursos, incluindo diversos empresários e executivos das mais tradicionais empresas gaúchas.", link: "http://", imageUrl: "infnet.png"}
     - {name: "Senac Informática", description: "Senac RS é uma instituição de educação profissional aberta a toda a sociedade oferece cursos profissionalizantes, técnicos, de formação, EAD, graduação, pós e extensão em diversas áreas", link: "http://www.senacrs.com.br/", imageUrl: "senac-informatica.jpg"}
 -
   group: "Apoio"
