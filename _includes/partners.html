@@ -1,0 +1,24 @@
+<!-- partners-section -->
+<section class="bg-dark">
+  <div class="container text-center">
+    <div class="call-to-action">
+      <h2>Nossos parceiros</h2>
+      <p>Obrigada por nos ajudar a fazer acontecer!</p>
+
+		{% for partner in site.data.partners %}
+			{% for element in partner.elements %}
+     	<div class="col-lg-4 parterns-box">
+     		<a href="{{ element.link }}" target="_blank">
+     			<img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+     		</a>
+     	</div>
+			{% endfor %}
+		{% endfor %}
+
+      <div class="col-lg-12">
+        <a href="alistamento" class="btn btn-default btn-xl wow tada">Saiba como apoiar o projeto</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //partners-section -->

@@ -1,0 +1,16 @@
+-
+  group: "Patrocinador"
+  elements:
+    - {name: "Mobile Summit", description: "Mobile Summit é a maior conferência sobre desenvolvimento mobile do Sul do Brasil", link: "http://www.msummit.com.br", imageUrl: "mobile-summit.png"}
+    - {name: "Mozilla Foundation", description: "A DECISION foi a primeira instituição brasileira a tornar-se parceira da Fundação Getulio Vargas, sendo pioneira no lançamento de cursos de especialização (MBA) fora do eixo Rio – São Paulo, e, nas últimas duas décadas, a DECISION/FGV, contribuiu para formar mais de 25 mil profissionais nesses cursos, incluindo diversos empresários e executivos das mais tradicionais empresas gaúchas.", link: "https://mozilla.org", imageUrl: "mozilla.png"}
+    - {name: "Mídia Conecta", description: "A Mídia Conecta é uma agência que provê serviços de Assessoria de Imprensa, Mídias Digitais, Desenvolvimento Web, Projetos Editoriais e outros. ", link: "https://midiaconecta.com.br", imageUrl: "midia-conecta.png"}
+-
+  group: "Parceiro"
+  elements:
+    - {name: "Faculdades Decision | Infnet", description: "", link: "http://", imageUrl: "infnet.png"}
+    - {name: "Senac Informática", description: "Senac RS é uma instituição de educação profissional aberta a toda a sociedade oferece cursos profissionalizantes, técnicos, de formação, EAD, graduação, pós e extensão em diversas áreas", link: "http://www.senacrs.com.br/", imageUrl: "senac-informatica.jpg"}
+-
+  group: "Apoio"
+  elements:
+    - {name: "WoMoz Brasil", description: "WoMoz Brasil é uma comunidade composta por entusiastas da web aberta, com foco no empoderamento feminino na tecnologia. Trabalhamos com diversos projetos para incentivar e dar maior visibilidade a participação e contribuição de mulheres e minorias na Mozilla e no mundo open-souce. ", link: "http://womozbrasil.org", imageUrl: "womoz-brasil.png"}
+    - {name: "Leão Mozilla Clubs", description: "Leão Mozilla Clubs é um grupo de ativistas da Mozilla, entusiastas da tecnologia e web aberta, estudantes e professores empenhados na promoção da alfabetização web e habilidades digitais em parceria com escolas, instituições sem fins lucrativos, hackerspaces, empresas e outros apoiadores locais.", link: "http://leaomozillaclubs.com", imageUrl: "leaomozillaclubs.svg"}
