@@ -2,7 +2,7 @@
 layout: post
 title:  "Desenvolvimento Front-end - HTML e CSS"
 location: "Porto Alegre"
-date:   
+date:   2016-03-12 09:30:00
 dateDue: 2016-03-12 09:30:00
 class: bg-dark
 link: http://www.eventick.com.br/wmc16-front-end
