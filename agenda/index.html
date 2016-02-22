@@ -13,19 +13,44 @@ permalink: /agenda/
     </div>
   </div>
 </header>
-<section class="no-padding">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-      {% for post in site.posts %}
-      <div class="col-lg-4 col-sm-6 {{ post.class }}">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="schedule-boxing" title="{{ post.title }}, em {{ post.location }}">
-          <time>{{ post.dateDue | date: "%d/%m/%Y" }}</time>
-          <h3>{{ post.title }}</h3>
-          <span class="schedule-location">em {{ post.location }}</span>
-          <span class="schedule-button">Inscreva-se <i class="fa fa-angle-double-right"></i></span>
-        </a>
+<section class="section-schedule">
+  <div class="container">
+    <div class="row">
+      <!-- nav-pills -->
+      <ul class="nav nav-pills" role="tablist">
+        {% for evento in site.data.agenda %}
+        <li role="presentation"{% if evento.id == "01" %} class="active"{% endif %}><a href="#schedule-tab-{{ evento.id }}" aria-controls="{{ evento.id }}" role="tab" data-toggle="tab">{{ evento.group }}</a></li>
+        {% endfor %}
+      </ul>
+      <!-- //nav-pills -->
+      <!-- tab-content -->
+      <div class="tab-content">
+        {% for evento in site.data.agenda %}
+        <div id="schedule-tab-{{ evento.id }}" class="tab-pane fade{% if evento.id == "01" %} in active{% endif %}" role="tabpanel">
+          {% for element in evento.elements %}
+          <div class="panel panel-default">
+            <div class="panel-heading {{ element.type }}">
+              <h3 class="panel-title">{{ element.title }}</h3>
+            </div>
+            <div class="panel-body">
+              <p>{{ element.description }}</p>
+            </div>
+            <div class="panel-footer">
+              <ul class="list-inline">
+                <li><i class="fa fa-calendar"></i> <b>Data:</b> {{ element.date }}</li>
+                <li><i class="fa fa-map-marker"></i> <b>Local:</b> {{ element.place }}</li>
+                <li><i class="fa fa-user"></i> <b>Público:</b> {{ element.public }}</li>
+                <li><i class="fa fa-certificate"></i> <b>Pré-requisito:</b> {{ element.complexity }}</li>
+                <li><i class="fa fa-bullhorn"></i> <b>Palestrante:</b> {{ element.organizer }}</li>
+                <li class="no-padding"><a href="{{ element.link }}" target="_blank" class="btn btn-primary">Inscrever <i class="fa fa-angle-double-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
+      <!-- //tab-content -->
     </div>
   </div>
 </section>

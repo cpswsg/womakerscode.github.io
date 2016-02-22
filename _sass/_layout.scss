@@ -700,3 +700,94 @@ body
         width: auto;
     }
 }
+
+/* Section Schedule */
+.section-schedule {
+    .nav-pills {
+        margin-bottom: 4rem;
+
+        > li {
+            border: 1px solid $theme-dark;
+
+            &.active > a {
+                background-color: $theme-dark;
+                color: #fff;
+            }
+        }
+
+        > li > a {
+            border: 0;
+            border-radius: 0;
+            outline: none;
+            padding: 15px 35px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $theme-dark;
+        }
+
+        > li + li {
+            margin-left: 0;
+        }
+    }
+
+    .panel {
+        border-radius: 0;
+        box-shadow: 0;
+    }
+    .panel-default {
+        border-color: $theme-dark;
+
+        > .panel-heading {
+            padding: 1.4rem;
+            color: #fff;
+            border-color: $theme-dark;
+
+            &.backend { background-color: #34495e; }
+            &.frontend { background-color: #1abc9c; }
+            &.mobile { background-color: #3498db; }
+            &.mozilla { background-color: #e74c3c; }
+            &.ux { background-color: #9b59b6; }
+
+            .panel-title {
+                font-weight: bold;
+            }
+        }
+
+        > .panel-footer {
+            padding: 0;
+            border-color: $theme-dark;
+            background-color: #fff;
+
+            .list-inline {
+                margin-bottom: 0;
+                > li {
+                    border-right: 1px solid $theme-dark;
+                    padding: 1.2rem;
+
+                    &:last-child {
+                        border-right: 0;
+                    }
+
+                    &.no-padding {
+                        padding-top: 6px;
+                        padding-bottom: 0;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width : 1199px) {
+    .section-schedule .nav-pills > li {
+        float: none;
+    }
+    .section-schedule .panel-default > .panel-footer .list-inline > li {
+        display: block;
+        border-right: 0;
+    }
+    .section-schedule .panel-default > .panel-footer .list-inline > li.no-padding  {
+        float: none;
+        padding-bottom: 1.2rem;
+    }
+}
